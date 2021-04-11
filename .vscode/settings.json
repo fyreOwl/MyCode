@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Brackets Dark",
+    "workbench.preferredDarkColorTheme": "LubnaDev",
+    "extensions.webWorker": true,
+    "workbench.editor.decorations.colors": true,
+    "beautify.config": ""
+}

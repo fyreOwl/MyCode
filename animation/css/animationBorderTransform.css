@@ -1,0 +1,32 @@
+ /* The animation code */
+ @keyframes animatedSquare {
+     0% {
+         border-radius: 0%;
+     }
+
+     25% {
+         border-radius: 100%;
+         transform: rotate(90deg);
+     }
+
+     50% {
+         background-color: blue;
+         transform: rotate(180deg);
+     }
+
+     100% {
+         background-color: green;
+         transform: rotate(360deg);
+     }
+ }
+
+ /* The element to apply the animation to */
+ div {
+     margin: 5%;
+     width: 100px;
+     height: 100px;
+     background-color: red;
+     animation-name: animatedSquare;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+ }
