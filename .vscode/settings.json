@@ -1,7 +1,6 @@
 {
-    "workbench.colorTheme": "Brackets Dark",
-    "workbench.preferredDarkColorTheme": "LubnaDev",
-    "extensions.webWorker": true,
-    "workbench.editor.decorations.colors": true,
-    "beautify.config": ""
+    "liveServer.settings.CustomBrowser": "firefox",
+    "liveServer.settings.NoBrowser": true,
+    "liveServer.settings.useLocalIp": true,
+    "liveServer.settings.multiRootWorkspaceName": "MyCode"
 }
